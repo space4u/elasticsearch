@@ -1,2 +1,2 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:7.1.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.4.3
 RUN bin/elasticsearch-plugin install ingest-attachment
